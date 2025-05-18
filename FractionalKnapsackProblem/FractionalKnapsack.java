@@ -1,4 +1,4 @@
-
+import java.util.*;
 public class FractionalKnapsack {
 
     public static double getMaxValue(List<Item> items, int capacity) {
