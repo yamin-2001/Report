@@ -1,3 +1,4 @@
+import java.util.*;
 public class HuffmanCoding {
 
     public static void buildCodes(HuffmanNode root, String code, Map<Character, String> codes) {
