@@ -13,3 +13,18 @@ void insertionSort(vector<int>& arr) {
         arr[j + 1] = key;
     }
 }
+
+int main() {
+    cout << "Enter the Size of the Array: ";
+    int n;
+    cin >> n;
+    vector<int> arr(n);
+    cout << endl << "Enter Array Elements: ";
+    for (auto &i : arr) cin >> i;
+
+    insertionSort(arr);
+    cout << endl << "Array after Insertion Sort: ";
+    for (int num : arr)
+        cout << num << " ";
+    cout << endl;
+}
